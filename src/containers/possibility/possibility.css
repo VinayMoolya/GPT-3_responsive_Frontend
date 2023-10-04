@@ -1,0 +1,96 @@
+.gpt3__possibility-container {
+  margin: 2rem;
+  padding: 0 10rem;
+  display: flex;
+  justify-content: center;
+}
+.gpt3__possibility-container-image img {
+  width: 29rem;
+  height: 33rem;
+  margin: 1rem;
+}
+.gpt3__possibility-container-content {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gpt3__possibility-container-content .mini-head {
+  color: #71e5ff;
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+}
+.gpt3__possibility-container-content .heading {
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  line-height: 2.5rem;
+  width: 80%;
+}
+.gpt3__possibility-container-content .description {
+  color: #81afdd;
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+.gpt3__possibility-container-content .mini-foot {
+  color: #ff8a71;
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+  margin-top: 2rem;
+}
+
+.gpt3__possibility-banner-container {
+  margin: 2rem 6rem;
+  padding: 2rem;
+  border-radius: 0.67025rem;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.gpt3__possibility-banner-container .text-container p {
+  color: #0e0e0e;
+  font-family: var(--font-family);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.875rem; /* 250% */
+}
+.gpt3__possibility-banner-container .text-container h3 {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.8125rem; /* 187.5% */ /* 250% */
+}
+.gpt3__possibility-banner-container .banner-btn-container button {
+  margin: 1rem;
+  /* padding: 1rem 2rem; */
+  color: white;
+  border-radius: 2.5rem;
+  background: #000;
+  width: 7.821rem;
+  height: 2.71238rem;
+  border: none;
+  outline: none;
+}
+@media screen and (max-width: 1170px) {
+  .gpt3__possibility-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 850px) {
+  .gpt3__possibility-banner-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

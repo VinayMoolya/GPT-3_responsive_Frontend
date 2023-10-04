@@ -1,0 +1,41 @@
+.gpt3__article-container {
+  display: flex;
+  flex-direction: column;
+  background: #042c54;
+  margin: 1rem;
+}
+.gpt3__article-container-image img {
+  height: auto;
+  max-width: 400px;
+  max-height: 500px;
+  background: #040c18;
+}
+.gpt3__article-container-content {
+  width: 400px;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gpt3__article-container-content p {
+  font-family: var(--font-family);
+  font-size: 0.72806rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.18419rem;
+}
+.gpt3__article-container-content h4 {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.89294rem;
+}
+.footer p {
+  padding: 2rem 0 0 0;
+  font-family: var(--font-family);
+  font-size: 0.62806rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.18419rem; /* 300% */
+}

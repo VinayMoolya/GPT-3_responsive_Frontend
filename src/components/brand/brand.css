@@ -1,0 +1,16 @@
+.gpt3__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gpt3__brand-image_container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+@media screen and (max-width: 700px) {
+  .gpt3__brand-image_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}

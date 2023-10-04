@@ -1,0 +1,74 @@
+.gpt3__footer-container {
+  padding: 4rem;
+  background: #031b34;
+}
+.footer-banner-content {
+  padding: 4rem 15rem;
+  display: flex;
+  flex-direction: column;
+}
+.footer-banner-content h2 {
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 2.875rem;
+  font-weight: 800;
+  width: 100%;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-banner-content button {
+  margin: 2rem 15rem;
+  padding: 1rem;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.footer-main-secondary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.gpt3__footer-main h2 {
+  color: white;
+  font-weight: 900;
+}
+.gpt3__footer-main p {
+  margin-top: 1rem;
+  font-family: Gilroy-Medium;
+  font-size: 0.75rem;
+  font-weight: 400;
+  width: 80%;
+}
+.gpt3__footer-rest .head {
+  margin: 1rem 0;
+  font-family: Gilroy-Bold;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.got3__footer-rest {
+  display: flex;
+  flex-direction: column;
+}
+.content-p {
+  color: rgb(219, 210, 210);
+  margin: 0.5rem 0;
+  font-family: Gilroy-Medium;
+  font-size: 0.75rem;
+  font-weight: 100;
+}
+.gpt3__footer-container footer {
+  margin: 4rem 0 0 0;
+  text-align: center;
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: Gilroy-Medium;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
